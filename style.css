@@ -1,0 +1,215 @@
+:root {
+    --primary-bg: #f8ecec;
+    --secondary-bg: #dcdcdc;
+    --primary-text: #333333;
+    --accent-red: #009dff;
+    --accent-green: #57ff81;
+    --accent-yellow: #ffe157;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: var(--primary-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent-red);
+    color: var(--primary-text);
+    padding: 1rem 2rem;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+    font-size: 250%;
+}
+
+/*  */
+.buttons button.toggle-theme {
+    background-color: var(--yellow);
+    height: 10px;
+    width: 10px;
+}
+
+
+/* Light Mode */
+.light-mode {
+    --primary-bg: #f8e7e7;
+    --secondary-bg: #dcdcdc;
+    --primary-text: #333333;
+    --accent-red: #009dff;
+    --accent-green: #57ff81;
+    --accent-yellow: #ffe157;
+}
+
+/* Dark Mode */
+.dark-mode {
+    --primary-bg: #333333;
+    --secondary-bg: #2b2b2b;
+    --primary-text: #ffffff;
+    --accent-red: #000000;
+    --accent-green: #4dff88;
+    --accent-yellow: #ffd966;
+}
+/*  */
+
+.file-name{
+    display: flex;
+    gap: 10px;
+}
+
+.file-name input {
+    width: 15rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-text);
+}
+
+.code-editor {
+    width: 80vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--primary-bg);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 2rem;
+    border: 1px solid var(--primary-text);
+}
+
+.code {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    overflow-y: auto;
+    background-color: var(--primary-bg);
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
+h1 {
+    font: 600 1.2rem sans-serif;
+    margin: 1rem 0;
+    color: var(--primary-text);
+}
+
+h1 > img {
+    width: 1.3rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.code textarea {
+    width: 100%;
+    height: calc(100% - 4rem);
+    background-color: var(--secondary-bg);
+    color: var(--primary-text);
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    resize: vertical;
+    border: 1px solid var(--primary-text);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.code h1 {
+    color: var(--primary-text);
+}
+
+#result {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary-text);
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.buttons button {
+    color: var(--primary-text);
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, transform 0.3s, outline 0.3s, color 0.3s;
+}
+
+.buttons button.reset {
+    background-color: var(--accent-red);
+}
+
+.buttons button.save {
+    background-color: var(--accent-green);
+}
+
+.buttons button.download {
+    background-color: var(--accent-yellow);
+}
+
+.buttons button:hover {
+    outline: 2px solid;
+    transform: scale(1.1);
+    background-color: var(--primary-text);
+    color: var(--primary-bg);
+}
+
+/* Media Query for Tablets */
+@media screen and (max-width: 1024px) {
+    .code-editor {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .file-name input {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttons button {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Add Animations */
+.code textarea,
+.buttons button {
+    transition: background-color 0.3s, transform 0.3s, outline 0.3s, color 0.3s;
+}
+
+.code textarea:hover,
+.buttons button:hover {
+    outline: 2px solid;
+    transform: scale(1.1);
+    background-color: var(--primary-text);
+    color: var(--primary-bg);
+}
