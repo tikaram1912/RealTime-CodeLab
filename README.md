@@ -3,7 +3,7 @@
 RealTime CodeLab is a web-based code editor that allows users to write, edit, and preview HTML, CSS, and JavaScript code in real-time. The editor features a user-friendly interface, real-time preview, and the ability to save and download code snippets. It also supports responsive design for a seamless experience on different devices.
 ## Live Demo
 
-    https://tgcodes-live-code-editor.netlify.app/
+    https://tikaram1912.github.io/RealTime-CodeLab/
 ## Getting Started with RealTime CodeLab
 
 To create a RealTime CodeLab, follow these steps:
@@ -94,7 +94,7 @@ By leveraging the capabilities of GitHub, the Live Code Editor is made accessibl
 
 ## Deployment Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0781626e-c5f6-41a6-bb11-e9abb1e25304/deploy-status)](https://app.netlify.com/sites/tgcodes-live-code-editor/deploys)
+[![GitHub Status](https://api.netlify.com/api/v1/badges/0781626e-c5f6-41a6-bb11-e9abb1e25304/deploy-status)](https://app.netlify.com/sites/tgcodes-live-code-editor/deploys)
 ## Contributing
 
 Contributions to the Live Code Editor are highly appreciated and welcome! If you have any suggestions, improvements, bug fixes, or exciting ideas to enhance the code editor, please feel free to contribute.
