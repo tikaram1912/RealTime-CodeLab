@@ -134,4 +134,4 @@ I value every contribution, no matter how big or small, and look forward to buil
 
 I am enthusiastic about collaborations and eager to receive your ideas for potential improvements or new projects. If you have any suggestions or wish to collaborate on future endeavors, don't hesitate to get in touch with me.
 
-You can contact me via email - tg2691.programming@gmail.com or with the links given below.
+You can contact me via email - tikarammahato377@gmail.com or with the links given below.
