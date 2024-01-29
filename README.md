@@ -88,19 +88,19 @@ Feel free to customize the description and add more details specific to your pro
 
 This project is deployed using [GitHub](https://www.github.com/). GitHub is a popular platform that provides an easy and efficient way to deploy static websites and applications.
 
-By leveraging the capabilities of GitHub, the Live Code Editor is made accessible to users online, allowing for a seamless code editing and previewing experience. GitHub's continuous deployment ensures that the latest changes to the code editor are automatically deployed, ensuring a smooth user experience.
+By leveraging the capabilities of GitHub, the "RealTime CodeLab" is made accessible to users online, allowing for a seamless code editing and previewing experience. GitHub's continuous deployment ensures that the latest changes to the code editor are automatically deployed, ensuring a smooth user experience.
 
 
 ## Contributing
 
-Contributions to the Live Code Editor are highly appreciated and welcome! If you have any suggestions, improvements, bug fixes, or exciting ideas to enhance the code editor, please feel free to contribute.
+Contributions to the "RealTime CodeLab" are highly appreciated and welcome! If you have any suggestions, improvements, bug fixes, or exciting ideas to enhance the code editor, please feel free to contribute.
 
 To contribute, follow these steps:
 
 1. Fork the Repository:
 
 
-    --Visit the GitHub repository for the Live Code Editor.
+    --Visit the GitHub repository for the RealTime CodeLab.
 
     --Click on the "Fork" button at the top right corner of the repository page.
 
@@ -113,7 +113,7 @@ To contribute, follow these steps:
 
     --Make the necessary changes and improvements using your preferred code editor.
 
-    --Ensure that your changes align with the overall design and goals of the Live Code Editor.
+    --Ensure that your changes align with the overall design and goals of the RealTime CodeLab.
 
     --Test your modifications locally to verify their functionality.
 
@@ -128,7 +128,7 @@ To contribute, follow these steps:
 
     --Submit the pull request, and it will be reviewed by the project maintainers.
 
-I value every contribution, no matter how big or small, and look forward to building an even better Live Code Editor together with the help of the community. Thank you for your interest and happy coding!
+I value every contribution, no matter how big or small, and look forward to building an even better "RealTime CodeLab" together with the help of the community. Thank you for your interest and happy coding!
 
 ## Collaboration and Feedback:
 
