@@ -84,7 +84,6 @@ To create a RealTime CodeLab, follow these steps:
 Feel free to customize the description and add more details specific to your project. 
 
 
-
 ## Deployment
 
 This project is deployed using [GitHub](https://www.github.com/). GitHub is a popular platform that provides an easy and efficient way to deploy static websites and applications.
@@ -92,9 +91,6 @@ This project is deployed using [GitHub](https://www.github.com/). GitHub is a po
 By leveraging the capabilities of GitHub, the Live Code Editor is made accessible to users online, allowing for a seamless code editing and previewing experience. GitHub's continuous deployment ensures that the latest changes to the code editor are automatically deployed, ensuring a smooth user experience.
 
 
-## Deployment Status
-
-[![GitHub Status](https://api.netlify.com/api/v1/badges/0781626e-c5f6-41a6-bb11-e9abb1e25304/deploy-status)](https://app.netlify.com/sites/tgcodes-live-code-editor/deploys)
 ## Contributing
 
 Contributions to the Live Code Editor are highly appreciated and welcome! If you have any suggestions, improvements, bug fixes, or exciting ideas to enhance the code editor, please feel free to contribute.
